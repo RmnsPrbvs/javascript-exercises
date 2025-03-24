@@ -11,7 +11,6 @@ const sumAll = function(a, b) {
     let m = 0
     for (i = a; i < b; i++) {
         m = m + i
-        console.log(m)
     }
     return m + b 
     } else {
@@ -19,8 +18,6 @@ const sumAll = function(a, b) {
     }
 
 };
-
-console.log(sumAll(123, -1))
 
 // Do not edit below this line
 module.exports = sumAll;
